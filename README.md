@@ -1,67 +1,52 @@
-# ACC102 - 财务数据分析工具
-
-一个基于 Streamlit 的交互式财务数据分析可视化系统，专为 ACC102 课程设计，帮助学生理解和分析企业财务数据。
-
-## 功能特点
-
-### 📈 数据预览
-- 支持查看原始财务数据
-- 显示数据统计摘要（最小值、最大值、平均值、中位数等）
-- 提供数据详细统计信息的展开查看
-
-### 📊 财务指标分析
-- 计算并展示关键财务指标
-- 包括盈利能力、偿债能力、运营效率和成长能力分析
-- 实时显示核心指标的平均值
-
-### 📉 趋势分析
-- 可视化财务数据随时间的变化趋势
-- 提供多种类型的图表：
-  - 收入与成本趋势图
-  - 利润趋势分析图
-  - 财务指标历史趋势
-  - 现金流量分析
-  - 成长能力分析
-  - 关键指标综合分析
-
-### 🎯 关键指标解读
-- 详细解释各个财务指标的含义
-- 提供指标的最佳范围和分析方法
-- 帮助用户理解指标背后的财务意义
-
-## 技术规格
-
-### 系统要求
-- Python 3.8 或更高版本
-- 安装所有必要的依赖库
-
-### 依赖库
-- streamlit: 用于构建交互式 Web 应用
-- pandas: 数据处理和分析
-- numpy: 数值计算
-- matplotlib: 数据可视化
-- seaborn: 更高级的数据可视化
-- requests: 网络请求（用于数据获取）
-
-## 安装说明
-
-### 1. 环境准备
-确保你已经安装了 Python 3.8 或更高版本。如果没有安装，可以使用以下方法：
-
-#### 方法一：使用 Anaconda（推荐）
-1. 下载并安装 [Anaconda](https://www.anaconda.com/products/distribution)
-2. 打开 Anaconda Prompt（Windows）或终端（macOS/Linux）
-
-#### 方法二：直接安装 Python
-1. 从 [Python 官方网站](https://www.python.org/) 下载并安装
-2. 确保勾选 "Add Python to PATH" 选项
-
-### 2. 下载项目
-1. 下载本项目的代码文件
-2. 解压缩到你选择的目录
-
-### 3. 安装依赖
-在命令提示符或终端中，进入项目文件夹并运行：
-
-```bash
+ACC102 - Financial Data Analysis Tool
+An interactive financial data analysis and visualization system built on Streamlit, designed exclusively for the ACC102 course to help students understand and analyze corporate financial data.
+Online Link: https://financial-data-tool-zheqiu.streamlit.app/Features
+📈 Data Preview
+Supports viewing raw financial data
+Displays statistical summaries of data (minimum, maximum, mean, median, etc.)
+Provides expandable view for detailed data statistics
+📊 Financial Indicator Analysis
+Calculates and displays key financial indicators
+Includes profitability, solvency, operational efficiency, and growth capacity analysis
+Shows real-time average values of core indicators
+📉 Trend Analysis
+Visualizes the trend of financial data over time
+Offers multiple chart types:
+Revenue and cost trend charts
+Profit trend analysis charts
+Historical trends of financial indicators
+Cash flow analysis
+Growth capacity analysis
+Comprehensive analysis of key indicators
+🎯 Key Indicator Interpretation
+Explains the meaning of each financial indicator in detail
+Provides optimal ranges and analysis methods for indicators
+Helps users understand the financial significance behind the indicators
+Technical Specifications
+System Requirements
+Python 3.8 or higher
+All required dependency libraries installed
+Dependencies
+streamlit: For building interactive web applications
+pandas: Data processing and analysis
+numpy: Numerical computing
+matplotlib: Data visualization
+seaborn: Advanced data visualization
+requests: Network requests (for data acquisition)
+Installation Guide
+1. Environment Setup
+Ensure you have Python 3.8 or higher installed. If not, use one of the following methods:
+Method 1: Using Anaconda (Recommended)
+Download and install Anaconda
+Open Anaconda Prompt (Windows) or Terminal (macOS/Linux)
+Method 2: Install Python Directly
+Download and install from the official Python website
+Make sure to check the option "Add Python to PATH"
+2. Download the Project
+Download the project code files
+Extract them to your preferred directory
+3. Install Dependencies
+In Command Prompt or Terminal, navigate to the project folder and run:
+bash
+运行
 pip install -r requirements.txt
