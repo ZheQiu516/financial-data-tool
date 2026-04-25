@@ -2,9 +2,10 @@
 
 \# ACC102 Financial Data Analysis Interactive Tool
 
-**🚀 Product Demo Link:**[Paste your streamlit link here](https://www.doubao.cn)
+**🚀 Product Demo Link:**[Paste your streamlit link here]([https://www.doubao.cn](https://financial-data-tool-zheqiu.streamlit.app/)
 
-**📂 GitHub Repository:**[Paste your github link here](https://www.doubao.cn)
+**📂 GitHub Repository:**[Paste your github link here]([https://www.doubao.cn](https://github.com/ZheQiu516/financial-data-tool
+))
 
 ---
 
